@@ -59,7 +59,7 @@ class Feed extends Component {
     if (!this.state.feed.length)
       return (
         <View>
-          <Text>Feed vazio</Text>
+          <Text>Não existem posts.</Text>
         </View>
       );
 
